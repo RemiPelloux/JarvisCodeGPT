@@ -1,0 +1,10 @@
+streamlit
+openai
+tenacity
+pydantic
+langchain
+faiss-cpu
+embeddings
+docx2txt
+pypdf2
+python-pptx
