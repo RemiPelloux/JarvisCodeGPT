@@ -101,7 +101,7 @@ def sidebar():
     with st.sidebar:
         st.markdown("# A Propos")
         st.markdown(
-            "📖JarvisCodeGPT permet de poser des questions sur vos "
+            "📖InsideGPT permet de poser des questions sur vos "
             "documents et d'obtenir des réponses précises avec des citations instantanées. "
             ""
         )

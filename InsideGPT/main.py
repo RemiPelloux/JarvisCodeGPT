@@ -19,8 +19,8 @@ def clear_submit():
     st.session_state["submit"] = False
 
 
-st.set_page_config(page_title="JarvisCodeGPT", page_icon="📖", layout="wide")
-st.header("JarvisCodeGPT 📖")
+st.set_page_config(page_title="InsideGPT", page_icon="📖", layout="wide")
+st.header("InsideGPT 📖")
 
 if "lang" not in st.session_state:
     st.session_state["lang"] = "fr"
