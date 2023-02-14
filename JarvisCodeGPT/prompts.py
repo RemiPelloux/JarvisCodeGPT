@@ -50,7 +50,7 @@ FINAL ANSWER:"""
 if "lang" not in st.session_state:
     st.session_state["lang"] = "fr"
 if 'template' not in st.session_state:
-    st.session_state['template'] = 'template'
+    st.session_state['template'] = template
 
 st.session_state['template_rdy'] = PromptTemplate(
     template=st.session_state["template"], input_variables=["summaries", "question"]

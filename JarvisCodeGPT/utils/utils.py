@@ -1,7 +1,6 @@
 import re
 from io import BytesIO
 from typing import Any, Dict, List, Tuple
-from pptx import Presentation
 import docx2txt
 import streamlit as st
 from embeddings import OpenAIEmbeddings
@@ -164,7 +163,7 @@ def get_sources(answer: Dict[str, Any], docs: List[Document]) -> List[Document]:
 
     return source_docs
 
-
+@st.cache(allow_output_mutation=True)
 def wrap_text_in_html(text: str | List[str]) -> str:
     """Wraps each text block separated by newlines in <p> tags"""
     if isinstance(text, list):
