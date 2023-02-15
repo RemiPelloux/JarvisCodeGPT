@@ -1,4 +1,4 @@
-Project Title
+JarvisPlease
 =============
 
 This project provides a natural language processing (NLP) pipeline for a variety of text data applications. It provides a way to generate sentence and document embeddings using either the OpenAI API or custom-built Faiss and Word2Vec embeddings. It also provides a document store to keep track of text documents and metadata.
